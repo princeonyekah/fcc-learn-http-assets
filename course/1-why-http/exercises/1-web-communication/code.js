@@ -1,7 +1,7 @@
 const apiKey = generateKey()
 const items = await getItemData()
 
-logItems()
+logItems(items)
 
 // don't touch below this line
 
@@ -29,5 +29,5 @@ function generateKey() {
 function logItems(items) {
   for (const item of items) {
     console.log(item.name)
-  } 
+  }
 }
