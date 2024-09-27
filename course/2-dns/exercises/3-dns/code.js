@@ -1,5 +1,6 @@
 function getDomainNameFromURL(url) {
-  // ?
+  const urlObj = new URL(url)
+  return urlObj.hostname
 }
 
 // don't touch below this line

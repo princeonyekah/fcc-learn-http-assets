@@ -1,7 +1,7 @@
-const craftingCompleteWait = 0
-const combiningMaterialsWait = 0
-const smeltingIronBarsWait = 0
-const shapingIronWait = 0
+const craftingCompleteWait = 400
+const combiningMaterialsWait = 200
+const smeltingIronBarsWait = 100
+const shapingIronWait = 300
 
 // Don't touch below this line
 
@@ -16,3 +16,4 @@ await sleep(2500)
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
+

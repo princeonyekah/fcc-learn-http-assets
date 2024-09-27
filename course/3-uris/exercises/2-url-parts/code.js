@@ -1,6 +1,7 @@
 function printURLParts(urlString) {
   const urlObj = new URL(urlString)
-  // ?
+
+  console.log (`protocol:${urlObj.protocol}`)
 }
 
 // don't touch below this line
